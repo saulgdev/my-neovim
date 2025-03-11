@@ -17,6 +17,7 @@ rm -rf "$HOME/.local/share/nvim"
 rm -rf "$HOME/.cache/nvim"
 ```
 
+```bash
 git clone https://github.com/saulgdev/my-neovim ~/.config/nvim
 ```
 
