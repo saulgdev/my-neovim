@@ -9,7 +9,15 @@ Este repositório contém meus arquivos de configuração para o Neovim, utiliza
 
 Para começar, consulte a [documentação](https://lazyvim.github.io/installation).
 
+Para remover os arquivos de configuração e cache anteriores do Neovim, execute os seguintes comandos:
 ```bash
+# Remover arquivos de configuração e cache do Neovim
+rm -rf "$HOME/.config/nvim"
+rm -rf "$HOME/.local/share/nvim"
+rm -rf "$HOME/.cache/nvim"
+```
+
 git clone https://github.com/saulgdev/my-neovim ~/.config/nvim
 ```
+
 
