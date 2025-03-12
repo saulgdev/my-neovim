@@ -9,6 +9,29 @@ Este repositório contém meus arquivos de configuração para o Neovim, utiliza
 
 Para começar, consulte a [documentação](https://lazyvim.github.io/installation).
 
+Progamas que complementao a experiencia:
+
+LazyGit:
+```bash
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
+```
+
+Fuzzy Finder:
+```bash
+sudo apt install fzf
+```
+Ripgrep:
+```bash
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep_14.1.0-1_amd64.deb
+sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
+```
+Fd-find:
+```bash
+sudo apt install fd-find
+```
 Para remover os arquivos de configuração e cache anteriores do Neovim, execute os seguintes comandos:
 ```bash
 # Remover arquivos de configuração e cache do Neovim
