@@ -19,7 +19,7 @@ return {
     -- See the full "keymap" documentation for information on defining your own keymap.
     -- keymap = { preset = "super-tab" },
     keymap = {
-      preset = "default",
+      preset = "enter",
       ["<Tab>"] = { "select_next", "fallback" },
       ["<S-Tab>"] = { "select_prev", "fallback" },
     },
