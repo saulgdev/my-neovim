@@ -11,7 +11,10 @@ keymap.set("n", "<C-a>", "gg<S-v>G")
 -- Split window
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
--- Diagnostics
+--  Next Diagnostics
 keymap.set("n", "<C-j>", function()
-  vim.diagnostic.goto_next()
+  vim.diagnostic.jump({
+    count = 1,
+    float = true,
+  })
 end)
