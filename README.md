@@ -42,6 +42,7 @@ rm -rf "$HOME/.cache/nvim"
 
 ```bash
 git clone https://github.com/saulgdev/my-neovim ~/.config/nvim
+git clone git@github.com:saulgdev/my-neovim.git ~/.config/nvim
 ```
 
 
